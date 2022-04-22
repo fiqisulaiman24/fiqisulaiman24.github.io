@@ -343,7 +343,7 @@ a.navbar-item:focus-within, a.navbar-item:hover{
 
 .fs-backtotop {
     position: fixed;
-    bottom: 2em;
+    bottom: 2.45em;
     right: 2em;
     text-decoration: none;
     color: var(--fs-blue-30);
