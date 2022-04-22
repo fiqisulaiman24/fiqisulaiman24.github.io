@@ -315,7 +315,7 @@ a.navbar-item:focus-within, a.navbar-item:hover{
 .fs-contact-subtitle{
     font-size: 18px;
     color: var(--fs-text-10);
-    margin-bottom: 16px;
+    margin-bottom: 14px;
 }
 /* End Contact */
 
