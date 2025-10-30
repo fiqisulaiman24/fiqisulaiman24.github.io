@@ -36,3 +36,12 @@ $(document).ready(function(){
 AOS.init({
     once: true,
 })
+
+// Tahun
+document.addEventListener('DOMContentLoaded', function() {
+    const tahun_sekarang = new Date().getFullYear();
+    const tahun = document.getElementById('tahun_sekarang');
+    if (tahun) {
+        tahun.textContent = tahun_sekarang;
+    }
+});
