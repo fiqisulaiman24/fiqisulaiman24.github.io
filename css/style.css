@@ -366,6 +366,17 @@ a.navbar-item:focus-within, a.navbar-item:hover{
     transform: translate(-50%,-50%);
 }
 
+/* Ribbon */
+.fixed-notif{
+    position: sticky;
+    top: 0;
+    width: 100%;
+    background-color: #82f9a1;
+    color: #111a20;
+    padding: 10px 20px;
+    z-index: 999;
+}
+
 /* Responsive Media */
 @media (min-width: 360px) and (max-width: 768px){
     .fs-section-title{
