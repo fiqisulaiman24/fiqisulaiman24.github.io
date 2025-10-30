@@ -366,8 +366,7 @@ a.navbar-item:focus-within, a.navbar-item:hover{
     transform: translate(-50%,-50%);
 }
 
-/* Ribbon */
-.fixed-notif{
+.sticky-notif{
     position: sticky;
     top: 0;
     width: 100%;
