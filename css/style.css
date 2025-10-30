@@ -328,7 +328,6 @@ a.navbar-item:focus-within, a.navbar-item:hover{
 .fs-footer-wrapper{
     display: flex;
     align-items: center;
-    justify-content: space-between;
 }
 
 .fs-footer-title{
