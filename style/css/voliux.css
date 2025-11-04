@@ -115,6 +115,7 @@ p{
 }
 .vx-card img{
     height: 192px;
+    object-fit: cover;
 }
 
 .vx-card .vx-card-body{
