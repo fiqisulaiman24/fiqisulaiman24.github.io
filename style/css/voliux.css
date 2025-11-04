@@ -1,0 +1,138 @@
+/* 
+    Template Name: Voliux
+    Description: Dark Minimalist Portfolio Website Template
+    Author: Fiqisulaiman
+    Version: 1.0
+    Note: DO NOT CHANGE ANYTHING IF YOU DON'T UNDERSTAND
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@200;500;600&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css");
+
+body,
+html{
+    font-family: 'Outfit';
+    font-weight: 200;
+    background: #111A20;
+    line-height: 1.5;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5{
+    font-family: 'Outfit';
+    font-weight: 600;
+    margin: 0;
+}
+
+p{
+    margin: 0;
+}
+
+.vx-green{ color: #00DF81; }
+.vx-white{ color: #ECF8FF; }
+.vx-light{ color: #E2E2E2; }
+
+.vx-ft-semimedium{ font-size: 1.75rem; }
+.vx-ft-medium{ font-size: 1.5rem; }
+.vx-ft-small{ font-size: 1.25rem; }
+.vx-ft-xsmall{ font-size: 1.10rem; }
+
+.vx-fw-xlight{ font-weight: 200; }
+.vx-fw-medium{ font-weight: 500; }
+.vx-fw-semibold{ font-weight: 600; }
+
+.vx-avatar{
+    border-radius: 50%;
+    border: 2px solid #00DF81;
+}
+
+.vx-exp-icons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 52px; 
+    height: 52px; 
+    background: transparent; 
+    border-radius: 50%; 
+    border: 2px solid #B0FBBC;
+    font-size: 1.10rem;
+}
+
+.vx-exs-tag{
+    display: inline-block;
+    background: #0a0e15;
+    border-radius: 4px;
+    color: #ECF8FF;
+    padding: 4px 6px;
+    text-align: center;
+    width: 100%;
+    cursor: context-menu;
+    transition: .2s all;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.vx-btn{
+    border: 1px solid #00DF81;
+    color: #111A20;
+    text-decoration: none;
+    padding: 8px 24px;
+    transition: .2s all;  
+    background: #00DF81;
+    display: inline-flex;
+    align-items: center;  
+}
+.vx-btn:hover{
+    border: 1px solid #82F9A1;
+    background: transparent;
+    color: #82F9A1;
+    transition: .2s all;
+}
+.vx-btn-2{
+    border: 1px solid #00DF81;
+    color: #82F9A1;
+    text-decoration: none;
+    padding: 8px 24px;
+    transition: .2s all;  
+    background: transparent;
+    display: inline-flex;
+    align-items: center;  
+}
+.vx-btn-2:hover{
+    border: 1px solid #00DF81;
+    background: #00DF81;
+    color: #111A20;
+    transition: .2s all;
+}
+
+.vx-card{
+    background: #0a0e15;
+    padding: 18px;
+}
+.vx-card img{
+    height: 192px;
+}
+
+.vx-card .vx-card-body{
+    margin: 14px 0px 14px 0px
+}
+
+.container, 
+.container-fluid, 
+.container-lg, 
+.container-md, 
+.container-sm, 
+.container-xl, 
+.container-xxl{
+    --bs-gutter-x: 2rem;
+}
+
+@media (min-width: 1200px){
+    .container, .container-lg, .container-md, .container-sm, .container-xl {
+        max-width: 882px;
+    }
+}
