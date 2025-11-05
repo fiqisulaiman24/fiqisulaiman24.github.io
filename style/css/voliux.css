@@ -108,20 +108,30 @@ p{
     color: #111A20;
     transition: .2s all;
 }
+.vx-btn-disabled{
+    border: 1px solid #dc3545;
+    color: #ECF8FF;
+    text-decoration: none;
+    padding: 8px 24px;
+    transition: .2s all;  
+    background: #dc3545;
+    display: inline-flex;
+    align-items: center;
+    opacity: 0.5;
+    cursor: not-allowed;  
+}
 
 .vx-card{
     background: #0a0e15;
-    padding: 18px;
+    padding: 20px;
 }
 .vx-card img{
-    width: 100%;
-    height: 192px;
+    height: 200px;
     object-fit: cover;
     object-position: left;
 }
-
-.vx-card .vx-card-body{
-    margin: 14px 0px 0px 0px
+.vx-card .card-body{
+    padding: 0;
 }
 
 .container, 
