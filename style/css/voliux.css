@@ -120,6 +120,12 @@ p{
     opacity: 0.5;
     cursor: not-allowed;  
 }
+.icons-skills img{
+    width: 26px;
+    position: relative;
+    bottom: 2px;
+    right: 0px;
+}
 
 .vx-card{
     background: #0a0e15;
@@ -127,6 +133,12 @@ p{
 }
 .vx-card .card-body{
     padding: 0;
+}
+.icons-portfolio img{
+    width: 26px;
+    position: relative;
+    bottom: 4px;
+    right: 0px;
 }
 
 .container, 
